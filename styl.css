@@ -1,0 +1,24 @@
+h2 {
+    font-size: 30px !important;
+}
+
+.btn-success:hover {
+    background-color: darkblue;
+}
+
+@keyframes add-border-to-canvas {
+    from {
+        box-shadow: 1px 1px 38px black;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px rgb(0, 0, 0);
+    }
+
+}
+
+canvas{
+    animation-name: add-border-to-canvas;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
